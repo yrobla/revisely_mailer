@@ -15,7 +15,7 @@ config = (function () {
     	config.admin_email1 = '#ADMIN_EMAIL#';
     
     	config.email_servers = [
-#EMAIL_SERVERS
+#EMAIL_SERVERS#
 ]
 
     	config.email_threads = 10;
