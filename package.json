@@ -1,0 +1,14 @@
+{
+    "name": "revise.ly mailer",
+    "version": "1.0.0",
+    "description":"Revise.ly mailer",
+    "dependencies": {
+        "async": "^0.9.0",
+        "mysql": "^2.5.3",
+        "node-syslog": "",
+        "nodemailer": "^1.3.0",
+        "nodemailer-smtp-transport": "^0.1.13",
+        "sprintf": "^0.1.4",
+        "utf8": "^2.0.0"
+    }
+}
