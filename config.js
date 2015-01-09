@@ -8,13 +8,15 @@ config = (function () {
 
 	};
 	
-	config.dbparams = { user:'', password:'', database:'', host:'', port:'3306', multipleStatements:false, waitForConnections:true, connectionLimit: 2};
+	config.dbparams = { user:'#MYSQL_USER#', password:'#MYSQL_PASSWORD#', database:'#MYSQL_DATABASE#', host:'#MYSQL_HOST#', port:'3306', multipleStatements:false, waitForConnections:true, connectionLimit: 2};
 	
-	config.fromemail = '';
-    	config.fromname = '';
-    	config.admin_email1 = '';
+	config.fromemail = '#FROM_EMAIL#';
+    	config.fromname = '#FROM_NAME#';
+    	config.admin_email1 = '#ADMIN_EMAIL#';
     
-    	config.email_servers = []
+    	config.email_servers = [
+#EMAIL_SERVERS
+]
 
     	config.email_threads = 10;
     	config.email_max_retries = 3;
