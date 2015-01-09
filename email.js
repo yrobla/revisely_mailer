@@ -1,6 +1,6 @@
 var mysql         = require('mysql');             // mysql library
-var common        = require('common.js');   // common functions 
-var config        = require('config.js');   // config application
+var common        = require('./common.js');   // common functions 
+var config        = require('./config.js');   // config application
 var util          = require('util');
 var fs            = require('fs');
 var nodemailer    = require("nodemailer");
