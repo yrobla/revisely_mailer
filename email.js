@@ -354,7 +354,7 @@ function exitHandler(options, err) {
 	if (options.exit) {
 		// log to syslog
 		Syslog.init("node-syslog", Syslog.LOG_PID | Syslog.LOG_ODELAY, Syslog.LOG_LOCAL0);
- 		Syslog.log(Syslog.LOG_ERROR, 'Process: '+process.pid+' - Stopped abnormally');
+ 		Syslog.log(Syslog.LOG_ERROR, 'Process: '+process.pid+' - Stopped abnormally - Error: '+err);
 		process.exit();
 	}
 }
